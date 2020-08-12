@@ -1,5 +1,5 @@
-import React from "react";
-import { View, Image, Text, StyleSheet } from "react-native";
+import React from 'react';
+import { View, Image, Text, StyleSheet } from 'react-native';
 
 const ResultsDetail = ({ result }) => {
   return (
@@ -15,7 +15,7 @@ const ResultsDetail = ({ result }) => {
 
 const styles = StyleSheet.create({
   container: {
-       marginLeft: 15
+    marginLeft: 15
   },
   image: {
     width: 250,
@@ -24,8 +24,8 @@ const styles = StyleSheet.create({
     marginBottom: 5
   },
   name: {
-    fontWeight: "bold",
-  },
+    fontWeight: 'bold'
+  }
 });
 
 export default ResultsDetail;
